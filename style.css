@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour+Convergence&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Sixtyfour+Convergence&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -41,23 +41,27 @@ nav a {
   justify-content: center;
   margin-top: 40px;
   padding: 10px;
-  border: 1px solid red;
+  /* gap: 20px; */
+  /* border: 1px solid red; */
 }
-.intro-img {
+/* .intro-img {
   border: 1px solid red;
-}
+} */
 .intro {
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  margin: 10px;
 }
 .intro-img img {
   width: 500px;
   height: 300px;
+  border-radius: 20px;
   /* object-fit: cover; */
 }
 .intro h1 {
   color: #f9faf8;
   font-size: 48px;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 .intro p {
   color: #e5e7eb;
@@ -66,12 +70,77 @@ nav a {
 .intro button {
   background-color: #3882f6;
   color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+  font-weight: 600;
+  margin: 20px;
 }
 .products {
-  padding: 10px;
+  padding: 15px 10px;
+  /* border: 1px solid red; */
+}
+.products h2 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
 }
 .product-images {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
+  margin-top: 10px;
+}
+.product-images img {
+  border-radius: 8px;
+}
+/* figure {
+  border-radius: 8px;
+  border: 1px solid #3882f6;
+} */
+figcaption {
+  text-align: center;
+}
+.price {
+  color: #3882f6;
+}
+.benefits {
+  border: 1px solid red;
+  background-color: #e5e7eb;
+  padding: 10px;
+}
+.benefits h3 {
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.benefit-promises {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /* border: 1px solid red; */
+}
+.card {
+  width: 20%;
+  padding: 10px;
+  background-color: rgba(00, 00, 00, 0.1);
+  /* border: 1px solid white; */
+  color: #1f2937;
+  height: 150px;
+  margin-top: 20px;
+}
+.icons {
+  font-size: 20px;
+  /* display: block; */
+  text-align: center;
+  width: 100%;
+}
+.card h4 {
+  text-align: center;
+  margin: 5px;
+}
+.subscribtion {
+  margin: 20px;
+  text-align: center;
 }
